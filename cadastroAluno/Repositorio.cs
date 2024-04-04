@@ -19,7 +19,18 @@ namespace cadastroAluno
             indice++;
             id++;
         }
-
-
+public static Aluno BuscarAluno(int indice)
+{
+    if(indice >= 0 && indice alunos.Length)
+    {
+        return alunos [indice];
     }
+return null;
 }
+public static Aluno[] GetTodosAlunos
+{
+    Aluno[] todosAlunos = newAluno[indice];
+                Array.Copy(alunos, todosAlunos, indice);
+                            return todosAlunos;
+}
+    }
